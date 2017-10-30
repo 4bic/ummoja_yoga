@@ -1,6 +1,8 @@
 /*
 Orange color: #e67e22
 
+light blue : #00D6F0
+
 */
 
 
@@ -120,7 +122,7 @@ h2:after {
     color: #e67e22;
     font-size: 120%;
     margin-right: 10px;
-    
+
     /*secrets to align text and icons*/
     line-height: 120%;
     vertical-align: middle;
@@ -222,7 +224,7 @@ header {
     margin-top: 20px;
 }
 
-.logo-black { 
+.logo-black {
     display: none;
     height: 50px;
     width: auto;
@@ -576,7 +578,7 @@ footer {
 }
 
 .footer-nav li a:link,
-.footer-nav li a:visited, 
+.footer-nav li a:visited,
 .social-links li a:link,
 .social-links li a:visited {
     text-decoration: none;
@@ -626,9 +628,3 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
-
-
-
-
-
-
