@@ -13,7 +13,8 @@ light blue : #00D6F0
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 html,
@@ -199,7 +200,7 @@ input[type=submit]:active {
 /* ----------------------------------------------- */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back_ii_flipped.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/back_ii_flipped.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back_ii_flipped.jpg);
     background-size: cover;
     background-position: center;
@@ -213,7 +214,6 @@ header {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -269,7 +269,8 @@ header {
     left: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
-    box-shadow: 0 2px 2px #efefef;
+    -webkit-box-shadow: 0 2px 2px #efefef;
+            box-shadow: 0 2px 2px #efefef;
 }
 
 .main-nav { margin-top: 30px;}
@@ -323,16 +324,17 @@ header {
     width: 100%;
     height: auto;
     -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
     transform: scale(1.15);
     -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
     transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
 
 .yoga-photo img:hover {
     opacity: 1;
     -webkit-transform: scale(1.03);
-    -ms-transform: scale(1.03);
     transform: scale(1.03);
 }
 
@@ -420,7 +422,7 @@ header {
 /* ----------------------------------------------- */
 
 .section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back_iv.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/back_iv.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back_iv.jpg);
     background-size: cover;
     color: #fff;
@@ -471,7 +473,8 @@ cite img {
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
-    box-shadow: 0 2px 2px #efefef;
+    -webkit-box-shadow: 0 2px 2px #efefef;
+            box-shadow: 0 2px 2px #efefef;
 }
 
 .plan-box div {
