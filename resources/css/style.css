@@ -207,7 +207,7 @@ header {
     background-attachment: fixed;
 }
 
-.hero-text-box {
+.landing-text-box {
     position: absolute;
     width: 1140px;
     top: 50%;
@@ -218,13 +218,13 @@ header {
 }
 
 .logo {
-    height: 100px;
+    height: 80px;
     width: auto;
     float: left;
     margin-top: 20px;
 }
 
-.logo-black {
+.ring-logo {
     display: none;
     height: 50px;
     width: auto;
@@ -272,7 +272,7 @@ header {
     box-shadow: 0 2px 2px #efefef;
 }
 
-.main-nav { margin-top: 18px; }
+.main-nav { margin-top: 30px;}
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
@@ -296,29 +296,29 @@ header {
 /* YOGA POSES */
 /* ----------------------------------------------- */
 
-.section-meals {
+.section-yoga-poses {
     padding: 0;
 }
 
-.meals-showcase {
+.yoga-showcase  {
     list-style: none;
     width: 100%;
 }
 
-.meals-showcase li {
+.yoga-showcase  li {
     display: block;
     float: left;
     width: 25%;
 }
 
-.meal-photo {
+.yoga-photo {
     width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
 }
 
-.meal-photo img {
+.yoga-photo img {
     opacity: 0.7;
     width: 100%;
     height: auto;
@@ -329,7 +329,7 @@ header {
     transition: transform 0.5s, opacity 0.5s;
 }
 
-.meal-photo img:hover {
+.yoga-photo img:hover {
     opacity: 1;
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
@@ -363,7 +363,7 @@ header {
 }
 
 .app-screen {
-    width: 35%;
+    width: 40%;
 }
 
 .works-step {
@@ -503,7 +503,7 @@ cite img {
     font-weight: 300;
 }
 
-.plan-price-meal {
+.plan-price-session {
     font-size: 80%;
 }
 
