@@ -264,6 +264,18 @@ header {
 }
 
 /* Sticky navi */
+.mobile-nav-icon{
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i{
+    font-size: 200%;
+    color: #fff;
+}
+/* Sticky navi */
 /* ----------- */
 .sticky {
     position: fixed;
